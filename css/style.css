@@ -310,9 +310,32 @@ ul#filters-list, p#filters-label, p.info {
 }
 
 
+/****** Footer ***********/
 
+.footer-container {
+    background-color: var(--main-bg-color);
+    display:flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
 
+.footer-widget {
+    width: calc(100%/3);
+    padding: 20px;
+}
 
+h3.footer-widget-title {
+    margin: 0;
+    font-size: 18px;
+}
+
+.footer-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding:0;
+}
 
 
 
