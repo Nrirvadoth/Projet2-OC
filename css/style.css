@@ -7,6 +7,7 @@
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
     --filter-bg-color: #DEEBFF;
+    --filter-border: #D9D9D9;
 }
 
 .fa-solid {
@@ -104,6 +105,98 @@ header {
     gap: 35px;
 }
 
+#search-form {
+    box-sizing: border-box;
+    display:flex;
+    height: 50px;
+}
+
+#search-form > * {
+    font-size:18px;
+    font-weight:700;
+}
+
+#search-form > i {
+    background-color: var(--main-bg-color);
+    color: #000;
+    border-radius: 15px 0px 0px 15px;
+    line-height: 50px;
+    width: 50px;
+    text-align: center;
+}
+
+#search-form > input[type=search] {
+    color: #000;
+    border-top: var(--main-bg-color) 1px solid;
+    border-bottom: var(--main-bg-color) 1px solid;
+    border-left: 0px;
+    border-right: 0px;
+    padding-left: 24px;
+}
+
+#search-form > input[type=search]::placeholder {
+    color: #000;
+}
+
+#search-form > button {
+    background-color: var(--main-color);
+    color: #fff;
+    border:none;
+    border-radius: 0 15px 15px 0;
+    cursor:pointer;
+    padding: 0 16px;
+}
+
+ul#filters-list, p#filters-label, p.info {
+    margin:0;
+    padding:0;
+}
+
+#filters {
+    display:flex;
+    align-items:center;
+    gap: 15px;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700; 
+    line-height:46px;
+}
+
+#filters-list {
+    display:flex;
+    list-style: none;
+    gap: 15px;
+}
+
+.filter-item {
+    border: solid 2px var(--filter-border);
+    border-radius:25px;
+    padding: 0 19px;
+}
+
+.filter-item:hover {
+    background-color: var(--filter-bg-color);
+}
+
+.filter-item > i {
+    padding-right:10px;
+}
+
+#search-info {
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+
+.fa-info {
+    border: 1px solid var(--filter-border);
+    border-radius:50%;
+    font-size: 10px;
+    width:24px;
+    text-align:center;
+    vertical-align: middle;
+    line-height: 24px;
+}
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
