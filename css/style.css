@@ -296,6 +296,7 @@ ul#filters-list, p#filters-label, p.info {
 .activites-cards .card {
     margin-top: 30px;
     flex: 1 0 20%;
+    padding: 0;
 }
 
 .activites-cards img {
@@ -306,7 +307,7 @@ ul#filters-list, p#filters-label, p.info {
 }
 
 .activites-cards .card-title {
-    margin: 20px;
+    margin-left: 20px;
 }
 
 
