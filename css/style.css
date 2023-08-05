@@ -35,6 +35,10 @@ section {
     font-size: 22px;
 }
 
+.section-subtitle {
+    margin: 8px 0 0;
+}
+
 .card {
     background-color: white;
     border-radius: 20px;
@@ -90,6 +94,16 @@ header {
     color: var(--main-color);
     border-top: 2px solid var(--main-color);
 }
+
+
+/****** Search section and form ***********/
+
+#search-section {
+    display:flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
