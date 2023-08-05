@@ -217,7 +217,7 @@ ul#filters-list, p#filters-label, p.info {
 }
 
 .hebergements-cards {
-    margin-top: 33px;
+    margin: 33px 0 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
