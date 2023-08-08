@@ -251,6 +251,12 @@ ul#filters-list, p#filters-label, p.info {
     margin-bottom: 8px;
 }
 
+.more-link {
+    font-weight: 700;
+    font-size:18px;
+}
+
+
 /****** Populaires ***********/
 .populaires {
     width: 32%;
