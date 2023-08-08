@@ -227,6 +227,7 @@ ul#filters-list, p#filters-label, p.info {
 
 .hebergements-cards .card{
     flex: 1 0 25%;
+    padding-bottom:10px;
 }
 
 .hebergements-cards img {
@@ -234,6 +235,16 @@ ul#filters-list, p#filters-label, p.info {
     height: 114px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    margin-bottom: 4px;
+}
+
+.hebergements-cards .card-content {
+    padding: 0 10px;
+}
+
+.hebergements-cards .card-title,  .hebergements-cards .card-subtitle{
+    margin:0;
+    margin-bottom: 8px;
 }
 
 /****** Populaires ***********/
