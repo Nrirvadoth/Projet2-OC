@@ -216,6 +216,10 @@ ul#filters-list, p#filters-label, p.info {
     box-sizing: border-box;
 }
 
+.card-rating .fa-star{
+    letter-spacing:-2px;
+}
+
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
@@ -250,6 +254,11 @@ ul#filters-list, p#filters-label, p.info {
     margin:0;
     margin-bottom: 8px;
 }
+
+.hebergements-cards .fa-star{
+    font-size:13px;
+}
+
 
 .more-link {
     font-weight: 700;
