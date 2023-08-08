@@ -132,6 +132,7 @@ header {
     border-left: 0px;
     border-right: 0px;
     padding-left: 24px;
+    width: 200px;
 }
 
 #search-form > input[type=search]::placeholder {
