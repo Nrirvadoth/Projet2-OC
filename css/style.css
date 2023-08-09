@@ -376,6 +376,14 @@ h3.footer-widget-title {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+    #filters {
+        flex-wrap:wrap;
+    }
+
+    #filters-label {
+        flex: 1 0 100%;
+    }
+
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -405,6 +413,10 @@ h3.footer-widget-title {
 
     .populaires-cards .card-subtitle {
         font-size: 13px;
+    }
+
+    .activites-cards img {
+        height:200px;
     }
 }
 
