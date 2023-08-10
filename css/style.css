@@ -150,6 +150,7 @@ header {
 
 #search-form > input[type=search]::placeholder {
     color: #000;
+    opacity: 1;
 }
 
 #search-form > button {
