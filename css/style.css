@@ -495,6 +495,10 @@ h3.footer-widget-title {
 
     /* Adapation filters et form */
 
+    #filters-list {
+        gap: 10px;
+    }
+
     .filter-item {
         flex: 1 0 35%;
     }
@@ -523,6 +527,7 @@ h3.footer-widget-title {
 
     .filter-link {
         font-size:14px;
+        padding: 0 10px;
     }
 
     /* Adapation cards */
