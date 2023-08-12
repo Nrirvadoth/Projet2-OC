@@ -223,6 +223,7 @@ ul#filters-list, p#filters-label, p.info {
     text-align:center;
     vertical-align: middle;
     line-height: 24px;
+    flex-shrink: 0;
 }
 
 /****** Hebergements And Populaires ***********/
@@ -448,13 +449,51 @@ h3.footer-widget-title {
         align-items: center;
     }
 
-    #top-menu ul {
-        padding-left:0;
-    }
-
     .main-container {
         padding: 0px;
     }
+
+    /* Adapation menu */
+    #top-menu {
+        width: 100%;
+    }
+    
+    #top-menu ul {
+        padding:0;
+        margin: 0;
+        line-height: 51px;
+        justify-content: center;
+        gap: 0;
+    }
+
+    .menu-item:hover {
+        border-color: var(--main-color);
+    }
+    
+    .menu-item {
+        border-bottom: 2px solid var(--main-bg-color);
+    }
+
+    .menu-item {
+        align-self: stretch;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    #top-menu ul li a {
+        display:block;
+        height:100%;
+        width:100%;
+        padding:0;
+    }
+
+    #top-menu ul li a:active, #top-menu ul li a:hover {
+        color: var(--main-color);
+        border-top: 0;
+    }
+
+    /* Adapation filters et form */
 
     .filter-item {
         flex: 1 0 35%;
@@ -485,6 +524,8 @@ h3.footer-widget-title {
     .filter-link {
         font-size:14px;
     }
+
+    /* Adapation cards */
 
     .hebergements-and-populaires {
         flex-direction: column-reverse;
@@ -524,6 +565,8 @@ h3.footer-widget-title {
     .activites-cards img {
         height: 141px;
     }
+
+    /* Adapation footer */
 
     .footer-container {
         flex-direction:column;
