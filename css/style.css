@@ -162,6 +162,12 @@ header {
     padding: 0 16px;
 }
 
+.search-icon {
+    color:#fff;
+    font-size:17px;
+    display: none;
+}
+
 ul#filters-list, p#filters-label, p.info {
     margin:0;
     padding:0;
@@ -456,6 +462,28 @@ h3.footer-widget-title {
 
     section#search-section {
         padding: 20px;
+    }
+
+    .search-icon {
+        display: block;
+    }
+
+    .search-label {
+        display: none;
+    }
+
+    #search-form > button {
+        border-radius: 15px;
+        margin-left: -15px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+    }
+
+    #search-form > input[type="search"] {
+        width:80%;
+    }
+
+    .filter-link {
+        font-size:14px;
     }
 
     .hebergements-and-populaires {
