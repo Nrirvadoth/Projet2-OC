@@ -373,7 +373,7 @@ ul#filters-list, p#filters-label, p.info {
 }
 
 .footer-widget {
-    width: calc(100%/3);
+    flex: 1 1 30%;
     padding: 20px;
 }
 
