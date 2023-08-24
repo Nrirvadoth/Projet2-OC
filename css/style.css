@@ -543,9 +543,14 @@ h3.footer-widget-title {
         flex-direction:column;
     }
 
-    .hebergements-cards, .activites-cards {
+    .hebergements-cards {
         flex-direction:column;
         gap:15px;
+        margin-top: 15px;
+    }
+
+    .activites-cards {
+        flex-direction:column;
         margin-top: 15px;
     }
 
